@@ -1,16 +1,14 @@
 {
-  "OLED.clear|block": "清除显示",
-  "OLED.drawLine|block": "画线条 起点:|x: $x0 y: $y0 终点| x: $x1 y: $y1",
-  "OLED.drawLoading|block": "显示进度条 $percent %",
-  "OLED.drawRectangle|block": "绘制矩形 起点:|x: $x0 y: $y0 终点| x: $x1 y: $y1",
-  "OLED.drawCircle|block": "绘制圆形 起点:|x: $x y: $y 半径| $r",
-  "OLED.drawFilledCircle|block": "绘制实心圆形 起点:|x: $x y: $y 半径| $r",
-  "OLED.init|block": "OLED 初始化 宽 %width 高 %height",
-  "OLED.newLine|block": "新行",
-  "OLED.writeNumNewLine|block": "新行显示数字 $n",
-  "OLED.writeNum|block": "显示数字 $n",
-  "OLED.writeStringNewLine|block": "新行显示字符串 $str",
-  "OLED.writeString|block": "显示字符串 $str",
-  "{id:category}Math": "Math",
-  "{id:category}OLED": "OLED"
+    "OLED.clear|block": "OLEDディスプレイをクリア",
+    "OLED.drawLine|block": "線を描画:|x: $x0 y: $y0 から| x: $x1 y: $y1 へ",
+    "OLED.drawLoading|block": "$percent パーセントのローディングバーを描画",
+    "OLED.drawRectangle|block": "矩形を描画:|x: $x0 y: $y0 から| x: $x1 y: $y1 へ",
+    "OLED.init|block": "幅 $width 高さ $height のOLEDを初期化",
+    "OLED.newLine|block": "改行を挿入",
+    "OLED.writeNumNewLine|block": "数値 $n を表示",
+    "OLED.writeNum|block": "（改行なしで）数値 $n を表示",
+    "OLED.writeStringNewLine|block": "文字列 $str を表示",
+    "OLED.writeString|block": "（改行なしで）文字列 $str を表示",
+    "{id:category}Math": "数学",
+    "{id:category}OLED": "OLED"
 }
