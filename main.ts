@@ -49,6 +49,7 @@ namespace OLED {
         pins.i2cWriteBuffer(chipAdress, buf, false)
     }
     //% block="clear OLED display"
+    //% block="clear"
     //% weight=3
     export function clear() {
         loadStarted = false
