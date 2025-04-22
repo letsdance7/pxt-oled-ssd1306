@@ -133,6 +133,7 @@ namespace OLED {
     }
 
     //% block="draw loading bar at $percent percent"
+    //% blockID="drawLine"
     //% percent.min=0 percent.max=100
     //% weight=2
     export function drawLoading(percent: number) {
