@@ -148,6 +148,7 @@ namespace OLED {
 
 
     //% block="show (without newline) string $str"
+    
     //% weight=6
     export function writeString(str: string) {
         for (let i = 0; i < str.length; i++) {
@@ -171,6 +172,7 @@ namespace OLED {
         newLine()
     }
     //% block="show number $n"
+    //% blockID="writeNum"
     //% weight=7
     export function writeNumNewLine(n: number) {
         writeNum(n)
