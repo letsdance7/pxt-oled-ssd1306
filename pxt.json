@@ -1,21 +1,21 @@
 {
-    "name": "oled-ssd1306",
+    "name": "SSD1306_OLED",
+    "version": "2.0.17",
+    "description": "Tinkercademy package for SSD1306 OLED controller",
+    "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "microphone": "*"
+        "core": "*"
     },
     "files": [
-        ".vscode/settings.json",
         "README.md",
-        "_locales/SSD1306_OLED-strings.json",
+        "main.ts",
+        "_locales/zh/SSD1306_OLED-strings.json",
         "_locales/ja/SSD1306_OLED-strings.json",
         "_locales/pl/SSD1306_OLED-strings.json",
-        "_locales/zh-TW/SSD1306_OLED-strings.json",
-        "_locales/zh/SSD1306_OLED-strings.json",
-        "main.ts",
-        "package.json",
-        "test.ts",
-        "tsconfig.json"
+        "_locales/zh-TW/SSD1306_OLED-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
     ],
     "public": true,
     "targetVersions": {
