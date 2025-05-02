@@ -49,7 +49,7 @@ namespace OLED {
         pins.i2cWriteBuffer(chipAdress, buf, false)
     }
     //% block="clear OLED display"
-    //% blockID="clear"
+    //% blockId="clear"
     //% weight=3
     export function clear() {
         loadStarted = false
@@ -133,7 +133,7 @@ namespace OLED {
     }
 
     //% block="draw loading bar at $percent percent"
-    //% blockID="drawLine"
+    //% blockId="drawLine"
     //% percent.min=0 percent.max=100
     //% weight=2
     export function drawLoading(percent: number) {
