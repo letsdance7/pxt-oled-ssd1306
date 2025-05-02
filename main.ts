@@ -48,7 +48,7 @@ namespace OLED {
         buf[1] = cmd
         pins.i2cWriteBuffer(chipAdress, buf, false)
     }
-    //% block="OLEDディスプレイをクリア"
+    //% block="clear OLED display"
     //% weight=3
     export function clear() {
         loadStarted = false
